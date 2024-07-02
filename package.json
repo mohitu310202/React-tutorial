@@ -104,7 +104,9 @@
     "parcel": "^2.12.0"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
